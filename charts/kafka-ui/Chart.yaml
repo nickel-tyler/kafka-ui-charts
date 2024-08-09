@@ -1,7 +1,18 @@
 apiVersion: v2
-name: kafka-ui
+appVersion: v1.0.0
 description: A Helm chart for kafka-UI
+icon: https://raw.githubusercontent.com/kafbat/kafka-ui/main/documentation/images/logo_new.png
+name: kafka-ui
 type: application
-version: 0.7.6
-appVersion: v0.7.2
+version: 1.4.3
+keywords:
+  - kafka
+  - kafka-ui
 icon: https://github.com/provectus/kafka-ui/raw/master/documentation/images/kafka-ui-logo.png
+home: "https://github.com/nickel-tyler/kafka-ui-charts"
+sources:
+  - "https://github.com/nickel-tyler/kafka-ui-charts"
+annotations:
+  artifacthub.io/links: |-
+    - name: GitHub
+      url: https://github.com/nickel-tyler/kafka-ui-charts
