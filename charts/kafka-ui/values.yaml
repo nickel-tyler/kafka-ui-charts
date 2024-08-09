@@ -19,6 +19,8 @@ serviceAccount:
   # The name of the service account to use.
   # If not set and create is true, a name is generated using the fullname template
   name: ""
+  # Automatically mount a ServiceAccount's API credentials?
+  automount: false  
 
 existingConfigMap: ""
 yamlApplicationConfig:
@@ -161,3 +163,5 @@ initContainers: {}
 volumeMounts: {}
 
 volumes: {}
+
+automountServiceAccountToken: false
